@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://d66.cn
+url: 
 date_format: "ordinal"
 title: D66分享网
 subtitle: "No pain,no gain"
