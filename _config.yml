@@ -14,16 +14,8 @@ encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2015
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
-=======
-keywords: d66,网络奇趣站,最新网络科技,实用网络工具,网络娱乐推荐,网络技术趋势,好用软件推荐,数字文化分享,数字时代资讯
-timezone: Asia/Shanghai
-encoding: "utf-8"
-# 页面左下角显示的年份
-since: 2024
-# 源码仓库，请替换成自己的
 repository: ponder2/ponder2.github.io
->>>>>>> 37c55c80513e0eb9f643d9a1d375237183f8e803
+
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -38,11 +30,9 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: true
-<<<<<<< HEAD
+
         start_date: 2024-03-03
-=======
-        start_date: 2024-03-09
->>>>>>> 37c55c80513e0eb9f643d9a1d375237183f8e803
+
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -53,13 +43,10 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-<<<<<<< HEAD
+    
         enabled: false
         image_alt: D66分享网
-=======
-        enabled: true
-        image_alt: D66
->>>>>>> 37c55c80513e0eb9f643d9a1d375237183f8e803
+
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -76,20 +63,14 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-<<<<<<< HEAD
 author: Scorpion
-=======
-author: Maurice.L
->>>>>>> 37c55c80513e0eb9f643d9a1d375237183f8e803
 organization: 
 organization_url: 
 github_username: cnscorpion
 location: Jiangsu, China
-<<<<<<< HEAD
+
 email: scorpius@vip.qq.com
-=======
-email: mauricelau6@gmail.com
->>>>>>> 37c55c80513e0eb9f643d9a1d375237183f8e803
+
 
 # ---------------- #
 #    Navigation    #
