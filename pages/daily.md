@@ -16,7 +16,7 @@ permalink: /daily/
 
 <ul class="listing">
 {% for item in site.daily %}
-{% if item.title != "Fragment Template" %}
+{% if item.title != "Daily Template" %}
 <li class="listing-item" tags="{% for tag in item.tags %}{{ tag }} {% endfor %}">
   <a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
   {% for tag in item.tags %}
