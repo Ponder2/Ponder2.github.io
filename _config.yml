@@ -93,10 +93,6 @@ navs:
     label: 片段
 
   -
-    href: /daily/
-    label: 英语
-
-  -
     href: /wiki/
     label: 维基
 
