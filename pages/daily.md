@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Daily
-description: daily 索引页
-keywords: daily
+title: Daily english
+description: Daily English提供每日英语学习资源，包括单词、短语、句子和文章，帮助您提高英语水平。
+keywords: 每日英语学习、英语单词、英语短语、英语句子、英语文章
 comments: false
 mermaid: false
-menu: 句子
+menu: Daily
 permalink: /daily/
 ---
 
