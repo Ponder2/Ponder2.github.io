@@ -139,7 +139,7 @@ collections:
         output: true
         permalink: /fragment/:path/
     daily:
-        output:true
+        output: true
         permalink: /:collection/:year/:title.html
 
 # ---------------- #
