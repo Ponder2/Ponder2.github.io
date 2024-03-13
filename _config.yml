@@ -138,6 +138,9 @@ collections:
     fragments:
         output: true
         permalink: /fragment/:path/
+    daily:
+        output:true
+        permalink: /:collection/:year/:month/:title.html
 
 # ---------------- #
 #      Comments    #
