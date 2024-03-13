@@ -140,7 +140,7 @@ collections:
         permalink: /fragment/:path/
     daily:
         output:true
-        permalink: /:collection/:year/:month/:title.html
+        permalink: /:collection/:year/:title.html
 
 # ---------------- #
 #      Comments    #
