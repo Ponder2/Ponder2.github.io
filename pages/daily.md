@@ -11,20 +11,6 @@ permalink: /daily/
 
 > 零散的知识，简短的观点，作为片段汇集于此。
 
-{% assign tagliststr = '' %}
-{% for item in site.fragments %}
-{% if item.title != "Fragment Template" %}
-  {% for tag in item.tags %}
-    {% if tagliststr contains tag %}
-    {% else %}
-      {% if tagliststr != '' %}{% assign tagliststr = tagliststr | append: ',' %}{% endif %}
-      {% assign tagliststr = tagliststr | append: tag %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-{% endfor %}
-
-{% assign taglist = tagliststr | split: ',' | sort_natural %}
 
 <a href="{{ site.url }}/fragments/" style="color:#888;display:inline-block;margin:0 8px;">全部</a>{% for tag in taglist %}<a href="{{ site.url }}/fragments/?tag={{ tag }}" style="color:#888;display:inline-block;margin:0 8px;">{{ tag }}</a>{% endfor %}
 
