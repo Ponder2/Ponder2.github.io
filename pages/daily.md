@@ -5,7 +5,7 @@ description: daily 索引页
 keywords: daily
 comments: false
 mermaid: false
-menu: 片段
+menu: 句子
 permalink: /daily/
 ---
 
