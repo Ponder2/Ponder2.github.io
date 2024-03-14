@@ -12,7 +12,7 @@ permalink: /daily/
 > When the sun came up… I couldn’t tell where heaven stopped and the Earth began.
 
 
-<a href="{{ site.url }}/daily/" style="color:#888;display:inline-block;margin:0 8px;">全部</a>{% for tag in taglist %}<a href="{{ site.url }}/daily/?tag={{ tag }}" style="color:#888;display:inline-block;margin:0 8px;">{{ tag }}</a>{% endfor %}
+<a href="{{ site.url }}/daily/" style="color:#888;display:inline-block;margin:0 8px;">All</a>{% for tag in taglist %}<a href="{{ site.url }}/daily/?tag={{ tag }}" style="color:#888;display:inline-block;margin:0 8px;">{{ tag }}</a>{% endfor %}
 
 <ul class="listing">
 {% for item in site.daily %}
