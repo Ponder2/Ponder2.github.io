@@ -81,7 +81,7 @@ navs:
 
   -
     href: /categories/
-    label: 分类
+    label: 分享
 
   -
     href: /archives/
@@ -90,7 +90,7 @@ navs:
 
   -
     href: /fragments/
-    label: 片段
+    label: 碎片
 
   -
     href: /daily/
