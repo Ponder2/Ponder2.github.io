@@ -11,6 +11,20 @@ permalink: /daily/
 
 > When the sun came up… I couldn’t tell where heaven stopped and the Earth began.
 
+{% assign tagliststr = '' %}
+{% for item in site.fragments %}
+{% if item.title != "Fragment Template" %}
+  {% for tag in item.tags %}
+    {% if tagliststr contains tag %}
+    {% else %}
+      {% if tagliststr != '' %}{% assign tagliststr = tagliststr | append: ',' %}{% endif %}
+      {% assign tagliststr = tagliststr | append: tag %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% endfor %}
+
+{% assign taglist = tagliststr | split: ',' | sort_natural %}
 
 <a href="{{ site.url }}/daily/" style="color:#888;display:inline-block;margin:0 8px;">All</a>{% for tag in taglist %}<a href="{{ site.url }}/daily/?tag={{ tag }}" style="color:#888;display:inline-block;margin:0 8px;">{{ tag }}</a>{% endfor %}
 
