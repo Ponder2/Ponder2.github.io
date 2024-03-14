@@ -3,7 +3,7 @@ layout: page
 title: About
 description: D66分享网
 keywords: d66,网络奇趣站,最新网络科技,实用网络工具,网络娱乐推荐,网络技术趋势,好用软件推荐,数字文化分享,数字时代资讯
-comments: true
+comments: false
 menu: 关于
 permalink: /about/
 ---
